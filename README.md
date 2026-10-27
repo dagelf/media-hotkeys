@@ -51,7 +51,7 @@ For other desktops, add custom keyboard shortcuts running these commands.
 
 ## Related Linux desktop tools
 
-- [Vampireslayer: background browser and app idle suspend](https://github.com/dagelf/vampireslayer). Chrome or Firefox eating CPU while you're out for lunch, even when they have nothing to do? Vampire slayer to the rescue. An Omarchy plugin that suspends idle browser and Electron app families, with media exemptions and ignore lists.
+- [Vampire Slayer: background browser and app idle suspend](https://github.com/dagelf/vampireslayer). Chrome or Firefox eating CPU while you're out for lunch, even when they have nothing to do? Vampire Slayer to the rescue. An Omarchy plugin that suspends idle browser and Electron app families, with media exemptions and ignore lists.
 - [Graphic equalizer / PipeWire web EQ](https://github.com/dagelf/eq): ten-band stereo graphic equalizer, preamp, presets, per-output settings, application mixer and MPRIS media controls.
 - [Linux CLI utilities](https://github.com/dagelf/utils): original home of these hotkeys.
 
