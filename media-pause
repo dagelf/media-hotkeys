@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+"""Pause every MPRIS player and mute the default output."""
+import subprocess
+from audio_output import set_muted
+
+if __name__ == '__main__':
+    try:
+        subprocess.run(['playerctl', '--all-players', 'pause'], timeout=5, check=False)
+    except (OSError, subprocess.TimeoutExpired):
+        pass
+    raise SystemExit(0 if set_muted(True) else 'No working audio output control found')
